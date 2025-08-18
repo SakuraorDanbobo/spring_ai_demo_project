@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: deepseek-demo
+
+  ai:
+    deepseek:
+      api-key: ${DP-API-KEY}
+      chat:
+        options:
+#          model: deepseek-v3
+          model: deepseek-r1
+      base-url: ${DP-API-URL}
