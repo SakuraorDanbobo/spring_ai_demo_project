@@ -17,6 +17,7 @@
 
     <modules>
         <module>deepseek-demo</module>
+        <module>platform-and-models</module>
     </modules>
 
     <properties>
