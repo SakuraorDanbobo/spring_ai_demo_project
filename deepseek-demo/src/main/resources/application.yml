@@ -18,4 +18,5 @@ logging:
         ai:
           chat:
             client:
-              advisor: DEBUG
+              advisor: #debug
+                SimpleLoggerAdvisor: DEBUG  # 单独该日志打印
